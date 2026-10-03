@@ -142,7 +142,7 @@
     }
   }
 
-  function tick() { addFab(); addMenuItem(); addBarButtons(); }
+  function tick() { addFab(); addMenuItem(); document.querySelectorAll('#yn_btn_edit,#yn_btn_persona,#yn_btn_group,#yn_btn_arrow').forEach(e => e.remove()); }
   apply();
   const start = () => { tick(); setInterval(tick, 2500); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();

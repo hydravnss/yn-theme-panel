@@ -30,7 +30,7 @@
 #send_form .fa-solid,#send_form .fa-regular,#send_form .fa-fw,#send_form .interactable{color:var(--yn-icon)!important;}
 #leftSendForm>div:not(.displayNone),#rightSendForm>div:not(.displayNone){width:36px!important;height:36px!important;display:flex!important;align-items:center!important;justify-content:center!important;
   font-size:19px!important;margin:0!important;background:transparent!important;border:0!important;}
-#mes_continue{display:none!important;}
+
 #send_but{background:var(--yn-send)!important;border-radius:50%!important;width:40px!important;height:40px!important;margin-left:4px!important;}
 #send_but,#send_but::before{color:#fff!important;}
 
