@@ -15,11 +15,9 @@
 .mes[is_user="true"] .mes_text strong,.mes[is_user="true"] .mes_text b,.mes[is_user="true"] .mes_text q{color:var(--yn-user-text)!important;}
 
 /* ===== Barre de saisie ===== */
-#form_sheld{position:fixed!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;width:100%!important;max-width:100%!important;
-  margin:0!important;padding-bottom:env(safe-area-inset-bottom)!important;z-index:30!important;transform:none!important;}
+#form_sheld{position:relative!important;margin:0!important;padding-bottom:env(safe-area-inset-bottom)!important;}
 #leftSendForm .displayNone,#rightSendForm .displayNone,#mes_stop.displayNone,#mes_impersonate.displayNone{display:none!important;}
-#sheld{height:100dvh!important;}
-#chat{padding-bottom:110px!important;}
+#chat{padding-bottom:12px!important;}
 #form_sheld{background:var(--yn-bar-bg)!important;border:0!important;box-shadow:none!important;}
 #send_form{background:var(--yn-bar-bg)!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:6px 8px!important;outline:0!important;}
 #nonQRFormItems{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;width:100%!important;align-items:center!important;gap:4px!important;background:transparent!important;border:0!important;}

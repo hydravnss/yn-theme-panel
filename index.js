@@ -143,6 +143,7 @@
   }
 
   function tick() { addFab(); addMenuItem(); document.querySelectorAll('#yn_btn_edit,#yn_btn_persona,#yn_btn_group,#yn_btn_arrow').forEach(e => e.remove()); }
+  try { const m = document.querySelector('meta[name=viewport]'); if (m && !/interactive-widget/.test(m.content)) m.content += ', interactive-widget=resizes-content'; } catch (e) {}
   apply();
   const start = () => { tick(); setInterval(tick, 2500); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
